@@ -40,7 +40,7 @@ app.use(function(err, req, res, next) {
 
 // module.exports = app;
 var debug = require('debug')('my-application'); // debug模块
-app.set('port', process.env.PORT || 3000); // 设定监听端口
+app.set('port', process.env.PORT || 3456); // 设定监听端口
 
 //启动监听
 var server = app.listen(app.get('port'), function() {
